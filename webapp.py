@@ -148,3 +148,12 @@ st.markdown("""
     }
     </style>
     """, unsafe_allow_html=True)
+
+# Footer
+footer_html = """
+<div style='position: fixed; bottom: 0; width: 100%; text-align: center; font-size: 12px;'>
+    <hr style='border-color: #F0F2F6;'>
+    <p>Developed by 🧑‍💻 Parthipan Ramakrishnan</p>
+</div>
+"""
+st.markdown(footer_html, unsafe_allow_html=True)
