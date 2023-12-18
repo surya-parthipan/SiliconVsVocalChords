@@ -10,7 +10,7 @@ import numpy as np
 import librosa
 import tensorflow as tf
 from keras.models import load_model
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 model = load_model('./audio_classifier_LSTM_model_v1.h5')
 
